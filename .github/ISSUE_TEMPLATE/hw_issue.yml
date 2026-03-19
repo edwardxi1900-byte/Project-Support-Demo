@@ -1,0 +1,14 @@
+name: 💎 Hardware & PCB Support
+description: 提交硬件相关问题 (Submit hardware issues)
+labels: ["team:hardware"]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Hardware Version
+    validations:
+      required: true
+  - type: textarea
+    id: desc
+    attributes:
+      label: Issue Description
