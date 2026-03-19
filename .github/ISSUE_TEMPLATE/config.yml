@@ -1,8 +1,12 @@
+# 禁止创建空白 Issue，强制用户看下方的链接或使用模板
 blank_issues_enabled: false
+
+# 定义引导链接，分别指向硬件和软件讨论区
 contact_links:
-  - name: GitHub Community Support
-    url: https://github.com/orgs/community/discussions
-    about: Please ask and answer questions here.
-  - name: GitHub Security Bug Bounty
-    url: https://bounty.github.com/
-    about: Please report security vulnerabilities here.
+  - name: 💎 Hardware & PCB Support (硬件支持)
+    url: https://github.com/Project-Support-Demo/discussions/new?category=hardware-pcb
+    about: 适用于原理图咨询、PCB 布局、硬件设计等非 Bug 类问题。 (Ask hardware questions here.)
+    
+  - name: 💻 Firmware & SDK Support (软件支持)
+    url: https://github.com/Project-Support-Demo/discussions/new?category=firmware-sdk
+    about: 适用于驱动适配、SDK 使用、编译环境等技术咨询。 (Ask software/SDK questions here.)
