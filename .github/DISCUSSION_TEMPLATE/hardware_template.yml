@@ -1,4 +1,4 @@
-name: 💻 Firmware & SDK Support (固件驱动支持)
+name: HWFirmware & SDK Support
 description: Support for kernel drivers, SDK compilation, and firmware debugging.
 title: "[FW] "
 labels: ["team:firmware"]
