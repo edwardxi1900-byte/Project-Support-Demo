@@ -4,7 +4,7 @@ blank_issues_enabled: false
 # 定义引导链接，分别指向硬件和软件讨论区
 contact_links:
   - name: 💎 Hardware & PCB Support (硬件支持)
-    url: https://github.com/edwardxi1900-byte/Project-Support-Demo/discussions/new?category=hardware-pcb
+    url: https://github.com/edwardxi1900-byte/Project-Support-Demo/issues/new?category=hardware-pcb
     about: 适用于原理图咨询、PCB 布局、硬件设计等非 Bug 类问题。 (Ask hardware questions here.)
     
   - name: 💻 Firmware & SDK Support (软件支持)
