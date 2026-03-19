@@ -1,5 +1,5 @@
 # 禁止创建空白 Issue，强制用户看下方的链接或使用模板
-blank_issues_enabled: false
+blank_issues_enabled: true
 
 # 定义引导链接，分别指向硬件和软件讨论区
 contact_links:
