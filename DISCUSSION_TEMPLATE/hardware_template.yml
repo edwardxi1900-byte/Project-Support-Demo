@@ -1,0 +1,31 @@
+name: 💻 Firmware & SDK Support (固件驱动支持)
+description: Support for kernel drivers, SDK compilation, and firmware debugging.
+title: "[FW] "
+labels: ["team:firmware"]
+body:
+  - type: input
+    id: software-version
+    attributes:
+      label: Software/SDK Version (软件版本)
+      placeholder: 例如：V1.0.0 / Main Branch
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Problem Description (问题描述)
+      placeholder: 请描述您的操作步骤、报错信息及期望结果。
+    validations:
+      required: true
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Pre-check (预检)
+      options:
+        - label: 我已查阅过相关 API 文档 (Checked API docs)
+        - label: 我已尝试过清理缓存并重新编译 (Clean build attempted)
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        > **Notification:** /cc @YourOrgName/sw-support
