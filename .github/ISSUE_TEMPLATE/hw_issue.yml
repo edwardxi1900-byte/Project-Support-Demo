@@ -12,3 +12,10 @@ body:
     id: desc
     attributes:
       label: Issue Description
+# 关键部分：在这里增加自动通知
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        > **Internal Notification:** /cc @CB-TECH-SUPPORT/hw-support
+        > *提交后，系统将自动通知硬件支持团队。*
